@@ -74,7 +74,15 @@ header {
 }
 
 .top-btn:hover {
-  transform: translateX(6px);
+  transform: translateX(8px);
   text-decoration: underline;
   color: #876127;
+}
+
+#menu-icon {
+  font-size: 35px;
+  color: #876127;
+  cursor: pointer;
+  margin-left: 10px;
+  display: none;
 }
