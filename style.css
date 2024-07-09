@@ -21,7 +21,7 @@ header {
 }
 
 .logo img {
-  max-width: 80%;
+  max-width: 70%;
   width: 100%;
   height: auto;
 }
@@ -48,4 +48,33 @@ header {
 .navbar a:hover {
   color: #876127;
   border-bottom: 2px solid #876127;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  transition: all 0.4s;
+}
+
+.top-btn {
+  display: flex;
+  align-items: center;
+  transition: all 0.4s;
+}
+
+.nav-btn a {
+  color: #080808;
+  font-size: 18px;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+.nav-btn span i {
+  font-size: 25px;
+}
+
+.top-btn:hover {
+  transform: translateX(6px);
+  text-decoration: underline;
+  color: #876127;
 }
