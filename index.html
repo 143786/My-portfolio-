@@ -60,16 +60,48 @@
               sein d'une équipe dynamique.
             </p>
             <div class="tab-titles">
-              <p class="tab-links active-link">Skills</p>
-              <p class="tab-links">Education</p>
-              <p class="tab-links">Experience</p>
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
             </div>
-            <div class="tab-contents">
+            <div class="tab-contents active-tab" id="skills">
               <ul>
                 <li><span>UI&UX</span><br />Designing web/App interfaces</li>
                 <li><span>Web Development</span><br />Web App Development</li>
                 <li>
                   <span>APP Development</span><br />Building Android & ios Apps
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2016</span><br />UI & UX Design Training at ACKU</li>
+                <li>
+                  <span>2015</span><br />IT Profesional certificate at Coursera
+                </li>
+                <li>
+                  <span>2014</span><br />Diplome in web Development at Kardan
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2020 - current </span><br />UI & UX Designer freelance
+                </li>
+                <li>
+                  <span>2021 - 2024 </span><br />Degital advisor & IT manager at
+                  Encre Bleue
+                </li>
+                <li><span>2019 - 2020 </span><br />Team lead at IFA</li>
+                <li>
+                  <span>2016 - 2019 </span><br />
+                  IT manager at Kabul University
                 </li>
               </ul>
             </div>
