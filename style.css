@@ -371,4 +371,7 @@ form .btn2 {
 /* ------------------------- CSS for Small screens ----------------- */
 
 @media only screen and (max-width: 600px) {
+  #header {
+    background-image: url(My-photo\ /Backround-02);
+  }
 }
