@@ -9,6 +9,10 @@
   /* list-style: none; */
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: rgb(3, 3, 35);
   color: #fff;
@@ -397,6 +401,7 @@ nav .fa-solid {
     height: 100vh;
     padding-top: 50px;
     z-index: 2;
+    transition: right 0.5s;
   }
   nav ul li {
     display: block;
@@ -408,4 +413,40 @@ nav .fa-solid {
     left: 25px;
     cursor: pointer;
   }
+  .sub-title {
+    font-size: 40px;
+  }
+
+  /* here we increase the size of our second photo */
+
+  .about-col-1,
+  .about-col-2 {
+    flex-basis: 100%;
+  }
+  /*  -------------------------------------    */
+
+  .about-col-1 {
+    margin-bottom: 25px;
+  }
+
+  .about-col-2 {
+    font-size: 14px;
+  }
+  .tab-links {
+    font-size: 16px;
+    margin-right: 20px;
+  }
+  .contact-left,
+  .contact-right {
+    flex-basis: 100%;
+  }
+  .copyright {
+    font-size: 14px;
+  }
+}
+
+#msg {
+  color: #769627;
+  margin-top: -40px;
+  display: block;
 }
